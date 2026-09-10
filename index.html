@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tiny Neuron — practical AI security, agent reliability, and applied AI systems.">
+  <title>Tiny Neuron | Practical AI Security</title>
+  <style>
+    :root { --ink:#15231d; --muted:#65726c; --paper:#f7f7f2; --card:#fff; --accent:#1f7458; --line:#dce5de; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.6 Arial, Helvetica, sans-serif; }
+    .wrap { width:min(1040px, 90%); margin:auto; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:26px 0; }
+    .brand { font-weight:800; font-size:1.25rem; letter-spacing:-.04em; }
+    .brand span, .eyebrow, .card a { color:var(--accent); }
+    nav a { color:var(--ink); text-decoration:none; margin-left:18px; font-size:.92rem; }
+    nav a:hover { color:var(--accent); }
+    .hero { max-width:780px; padding:88px 0 72px; }
+    .eyebrow { font-size:.78rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:14px 0 24px; font-size:clamp(3rem, 7vw, 5.7rem); line-height:.98; letter-spacing:-.07em; }
+    h2 { margin:0 0 14px; font-size:1.7rem; letter-spacing:-.04em; }
+    .lead, .intro, .card p { color:var(--muted); }
+    .lead { max-width:650px; font-size:1.18rem; }
+    .button { display:inline-block; margin:14px 10px 0 0; padding:12px 18px; border-radius:8px; background:var(--accent); color:#fff; text-decoration:none; font-weight:700; }
+    .button.alt { background:transparent; color:var(--ink); border:1px solid var(--line); }
+    section { padding:55px 0; border-top:1px solid var(--line); }
+    .intro { max-width:670px; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin-top:28px; }
+    .card { padding:23px; border:1px solid var(--line); border-radius:12px; background:var(--card); }
+    .card h3 { margin:0 0 8px; font-size:1.08rem; }
+    .card p { margin:0 0 16px; }
+    .card a { text-decoration:none; font-weight:700; }
+    .contact { padding:36px; border-radius:14px; color:#fff; background:var(--ink); }
+    .contact p { max-width:650px; color:#c9d5ce; }
+    .contact a { color:#fff; font-weight:700; }
+    footer { padding:28px 0 42px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:650px) { nav { align-items:flex-start; flex-direction:column; gap:12px; } nav a { margin:0 14px 0 0; } .hero { padding:58px 0 48px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav>
+      <div class="brand">tiny<span>neuron</span></div>
+      <div><a href="#about">About</a><a href="#builds">Builds</a><a href="#writing">Writing</a><a href="#contact">Contact</a></div>
+    </nav>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">AI security · Agent reliability · Applied systems</div>
+        <h1>Small experiments.<br>Serious AI systems.</h1>
+        <p class="lead">Tiny Neuron is a practitioner-led collection of practical notes, technical builds, and frameworks for building safer, more reliable AI systems.</p>
+        <a class="button" href="#builds">Explore the builds</a>
+        <a class="button alt" href="https://github.com/prachipatel-tn" target="_blank" rel="noreferrer">GitHub profile</a>
+      </section>
+      <section id="about">
+        <h2>About Tiny Neuron</h2>
+        <p class="intro">I’m Prachi Patel, an AI/ML and security practitioner exploring the practical work behind production AI: evaluation, agent safety, identity, governance, observability, and deployment.</p>
+      </section>
+      <section id="builds">
+        <h2>Featured builds</h2>
+        <p class="intro">Small public artifacts designed to make AI implementation more concrete.</p>
+        <div class="grid">
+          <article class="card"><h3>AI Agent Threat Model</h3><p>A practical checklist for reasoning about data, tool, identity, and prompt-injection risks before production.</p><a href="#contact">Coming soon →</a></article>
+          <article class="card"><h3>Agent Evaluation Harness</h3><p>A small experiment for testing agent reliability, behavior, and failure modes.</p><a href="#contact">Coming soon →</a></article>
+          <article class="card"><h3>Build Notes</h3><p>Field notes from hands-on experiments in AI security and applied agentic systems.</p><a href="#writing">Read the notes →</a></article>
+        </div>
+      </section>
+      <section id="writing">
+        <h2>Writing and field notes</h2>
+        <p class="intro">Clear technical notes, diagrams, project retrospectives, and practical AI-security observations—published as I build.</p>
+      </section>
+      <section id="contact">
+        <div class="contact"><h2>Let’s compare notes.</h2><p>I welcome conversations with practitioners building, securing, or evaluating AI systems.</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">Connect on LinkedIn →</a></div>
+      </section>
+    </main>
+    <footer>© 2026 Tiny Neuron · Built in public by Prachi Patel</footer>
+  </div>
+</body>
+</html>
